@@ -28,7 +28,7 @@ select top 5 * from gold.dim_customers;
 
 
 
-
+create view customer_report as
 with customer_reports as(
 select
 c.customer_key as customer_key,
