@@ -27,7 +27,7 @@ select top 5 * from gold.dim_customers;
 */
 
 
-
+create view products_report as
 with base_query as(
 select p.product_key as product_key,
 p.product_name as product_name,
